@@ -602,12 +602,62 @@ footer{
     margin-top: 180px;
 }
 
+.footer-contant h2{
+
+font-weight: 600;
+font-size: 42px;
+line-height: 52px;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
+
+.search-btn{
+    height: 72px;
+    width: 267px;
+    margin-top: 196px;
+    align-items: center;
+    padding-left: 95px;
+    margin-bottom: 64px;
+    
+}
+
+.footer-side1{
+    width: 571px;
+height: 104px;
+margin-top: 180px;
+margin-left: 134px;
+margin-bottom: 48px;
+}
+.footer-side1 span{
+    text-decoration: underline;
+}
+.search-btn a{
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+
+color: #FFFFFF;
+padding: 22px 34px 22px 60px;
+border-radius: 6px;
+background-color: #3936C4;
+
+
+
+}
+
+
 .footer-contant{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 1440px;
-    height: 458px;
+    gap: 335px;
+
+}
+.footer-contant *{
+    flex-basis: 100%;
+    justify-content: space-evenly;
 }
 .f-nav{
     display: flex;
@@ -617,4 +667,30 @@ footer{
     padding-bottom: 48px;
     gap: 48px;
 }
+
     
+hr{
+    width: 1170px;
+    height: 2px;
+    color: #3E3C50;
+    margin: 0 auto;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 42px;
+    margin-right: 135px;
+    margin-top: 48px;
+}
+.footer-nav a{
+    color: #B5BAC6;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
